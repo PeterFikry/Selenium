@@ -46,10 +46,10 @@ public class webOrderTask2 {
             System.out.println("the title is incorrect");
         }
         //logout
-        //driver.findElement(By.linkText("Logout")).click();
+        driver.findElement(By.linkText("Logout")).click();
 
         //close the browser
-        //driver.quit();
+        driver.quit();
 
     }
 }

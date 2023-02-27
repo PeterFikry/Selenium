@@ -24,7 +24,7 @@ public class locatingElements {
         driver.findElement(By.name("pass")).sendKeys("aykalam");
 
         //click on the button create New Account
-       // driver.findElement(By.linkText("Create new account")).click();
+        driver.findElement(By.linkText("Create new account")).click();
 
         //click on forgotten password
         driver.findElement(By.partialLinkText("password?")).click();

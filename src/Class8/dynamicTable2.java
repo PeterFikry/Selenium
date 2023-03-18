@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 public class dynamicTable2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //tell your project where the webdriver is located.
         //for mac users please do not use .exe with chromedriver
         System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
@@ -26,7 +26,7 @@ public class dynamicTable2 {
         loginButton.click();
 
 
-//       /task : print all the eneteries that have  my money in the product
+//       /task : print all the entries that have  my money in the product
 //        1.locator
         List<WebElement> column = driver.findElements(By.xpath("//table[@class='SampleTable']/tbody/tr/td[3]"));
 
